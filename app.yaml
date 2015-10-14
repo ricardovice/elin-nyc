@@ -1,0 +1,11 @@
+module: default
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /
+  static_files: pages/index.html
+  upload: pages/index.html
+- url: /static
+  static_dir: static
