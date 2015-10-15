@@ -1,2 +1,7 @@
 [core]
 project = elin-nyc
+
+[app]
+suppress_change_warning = true
+use_appengine_api = false
+
